@@ -1,0 +1,4 @@
+LIBRARY Jobswap
+EXPORTS
+    expCreatePlugin
+    expGetInterfaceVersion
