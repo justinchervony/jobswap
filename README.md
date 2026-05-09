@@ -53,7 +53,7 @@ WAR, MNK, WHM, BLM, RDM, THF, PLD, DRK, BST, BRD, RNG, SAM, NIN, DRG, SMN, BLU, 
 
 **Duplicate job protection.** If a swap would result in main and sub being the same job, sub is automatically corrected to WAR. If main is WAR, sub defaults to MNK instead.
 
-**Location validation.** If a job swap is attempted in a zone that does not permit it, the plugin will detect the server rejection after ~1.5 seconds and resend your original jobs. This corrects any gear-swap side effects caused by plugins like LuaShitacast reacting to the outgoing packet before the server rejects it.
+**Location validation.** If a job swap is attempted in a zone that does not permit it, the plugin will detect the server rejection after ~1.5 seconds and resend your original jobs. This corrects any gear-swap side effects caused by plugins like LuAshitacast reacting to the outgoing packet before the server rejects it.
 
 ## Settings File
 
